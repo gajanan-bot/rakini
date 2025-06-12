@@ -16,8 +16,8 @@ export const Header = (): JSX.Element => {
     { label: 'How to Start', href: '/how-to-start' },
     { label: 'Services', href: '/services', hasDropdown: true },
     { label: 'Technologies', href: '/technologies', hasDropdown: true },
-    { label: 'Careers', href: '#careers' },
-    { label: 'Contact us', href: '#contact' },
+    { label: 'Careers', href: '/careers' },
+    { label: 'Contact us', href: '/contact' },
   ];
 
   return (

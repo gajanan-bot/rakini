@@ -69,7 +69,7 @@ const Technologies: React.FC = () => {
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6">
         {techimg.map((tech) => (
           <div key={tech.name} className="bg-white shadow p-4 rounded-lg flex items-center justify-center hover:scale-105 transition-transform">
-            <img src={tech.src} alt={tech.name} className="h-10 object-contain" />
+            <img src={tech.src} alt={tech.name} className="h-16 w-20 object-contain" />
           </div>
         ))}
       </div>
