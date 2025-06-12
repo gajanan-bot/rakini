@@ -15,13 +15,13 @@ export const Header = (): JSX.Element => {
     { label: 'Home', href: '/' },
     { label: 'How to Start', href: '/how-to-start' },
     { label: 'Services', href: '/services', hasDropdown: true },
-    { label: 'Technologies', href: '#technologies', hasDropdown: true },
+    { label: 'Technologies', href: '/technologies', hasDropdown: true },
     { label: 'Careers', href: '#careers' },
     { label: 'Contact us', href: '#contact' },
   ];
 
   return (
-    <header className="relative z-10 bg-white shadow-sm">
+    <header className="fixed top-0 z-40 w-full bg-white shadow-sm">
       <div className="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto">
         <div className="flex items-center">
           <Link to="/" className="flex items-center space-x-3">
